@@ -16,3 +16,8 @@ class LoginPageLocators:
     REGISTER_EMAIL = (By.ID, "id_registration-email")
     REGISTER_PWD = (By.ID, "id_registration-password1")
     REGISTER_REPEAT_PWD = (By.ID, "id_registration-password2")
+
+
+class ProductPageLocators:
+
+    ADD_TO_CART = (By.ID, "add_to_basket_form")
