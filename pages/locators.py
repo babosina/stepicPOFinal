@@ -21,3 +21,6 @@ class LoginPageLocators:
 class ProductPageLocators:
 
     ADD_TO_CART = (By.ID, "add_to_basket_form")
+    IN_CART_SUCCESS = (By.XPATH, "//div[@id='messages']/div[1]/div")
+    PRICE = (By.XPATH, "//div[@class='col-sm-6 product_main']/p[@class='price_color']")
+    BASKET_TOTAL_PRICE = (By.XPATH, "//div[@id='messages']/div[3]/div/p[1]")

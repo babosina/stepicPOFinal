@@ -7,3 +7,5 @@ def test_guest_can_add_product_to_cart(browser):
     page.open()
     page.add_product_to_cart()
     page.solve_quiz_and_get_code()
+    page.assert_basket_price()
+    page.assert_product_added_to_cart()
